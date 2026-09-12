@@ -1,0 +1,52 @@
+/* Page font color */
+body {
+    color: #333333;
+}
+
+/* Heading colors */
+h1 {
+    color: #12355b;
+}
+
+p {
+    color: #555555;
+}
+
+/* Table */
+table {
+    color: #333333;
+}
+
+/* Table header */
+th {
+    background-color: #12355b;
+    color: white;
+}
+
+/* Table rows */
+tr:nth-child(even) {
+    background-color: #f2f6fa;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Table row hover */
+tr:hover {
+    background-color: #dceaf7;
+}
+
+/* Table cells */
+td {
+    color: #333333;
+}
+
+/* Coordinator */
+h2 {
+    color: #12355b;
+}
+
+h3 {
+    color: #365f8a;
+}
