@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9b80f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.registration_form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(184, 169, 82);
+    border: 1px solid #ccc;
+    border-spacing: 15px;
+    border-radius: 8px;
+}
+
+.registration_form td {
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #18013e;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+#msg {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(243, 5, 5);
+}
